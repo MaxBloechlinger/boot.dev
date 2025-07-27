@@ -1,1 +1,26 @@
-tsconfig.json
+# dependencies
+node_modules/
+
+# Vite build output
+dist/
+
+# Vite cache
+.vite/
+
+# Vitest cache
+coverage/
+test-results/
+*.log
+
+# TypeScript cache
+*.tsbuildinfo
+
+# environment variables
+.env
+.env.*
+
+# OS & editor junk
+.DS_Store
+.vscode/
+.idea/
+
